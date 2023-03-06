@@ -25,7 +25,7 @@ namespace DronePackageDelivery.Test
         }
 
         [Fact]
-        public void Test_Should_Generate_Correct_Output_Six_Trips()
+        public void Test_Should_Generate_Correct_Output_For_File1()
         {
             var filePath = Path.Combine(_filePath, @"File1.txt");
 
@@ -55,7 +55,7 @@ namespace DronePackageDelivery.Test
         }
 
         [Fact]
-        public void Test_Should_Generate_Correct_Output_Four_Trips()
+        public void Test_Should_Generate_Correct_Output_For_File2()
         {
             var filePath = Path.Combine(_filePath, @"File2.txt");
 
