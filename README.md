@@ -30,7 +30,7 @@ Trip #2
 [Location #5 Name], [Location #6 Name]
 ```
 ## Solution
-- Use algorith to search all the combinations between the candidate drone and the locations, maximizing the weight drone can carry.
+- Used algorithm to search all the combinations between the candidate drone and the locations, maximizing the weight drone can carry, validating if location is already in the list of bestCandidates for trip.
 
 ## IDE/Technology
 - Visual Studio 2022/C#/.NET6
